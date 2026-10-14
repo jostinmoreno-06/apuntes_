@@ -124,6 +124,16 @@ class EjemploLocal
             int status = root.GetProperty("status").GetInt32();
             string mensaje = root.GetProperty("mensaje").GetString();
 
+
+
+
+
+
+
+
+PUEDO HACER DATETIME.PARSE(VARIABLE_TIPO_DATETIME.GETSTRING()) ESTO LO QUE HACE ES QUE INTERPRETA LA FECHA COMO FECHA POR QUE SI NO LO VE COMO UN STRING
+ENTONCES LO QUE HACE ES QUE PRIMERO LA PASA A STRING Y DESPUES LA INTERPRETA 
+
             Console.WriteLine($"Status: {status}");
             Console.WriteLine($"Mensaje: {mensaje}");
         }
